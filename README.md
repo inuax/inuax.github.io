@@ -29,8 +29,8 @@ Kasetsart University Kamphaeng Saen Campus
 * 2012 - The 8th National Conference on Computing and Information Technology
   "Using Ant Colony Algorithm for Weight Setting in OSPF Network"
 * 2011 - National Out Standing Youth and Youth Supporter Club in Inventions and Innovations Category
-* 2011 - Won First Place in World Challenge – “Mars Manoeuvre” held at TECHFEST 2011, IIT Bombay
-* 2010 - Won Second Place in Techfest iNexus Thailand held at The Asian Institute of Technology
+* 2011 - Won First Place in World Challenge – “Mars Manoeuvre” held at TECHFEST 2011, [IIT Bombay](http://www.iitb.ac.in)
+* 2010 - Won Second Place in Techfest iNexus Thailand held at The [Asian Institute of Technology](https://www.ait.ac.th)
 
 ### Technical Skill
 * Designing and implementing network
