@@ -25,9 +25,9 @@ Kasetsart University Kamphaeng Saen Campus
 
 ### Awards and Achievements
 
-Cert name | Issuer
+Year | Awards and Achievements
 ------ | ------
-Security+ | CompTIA
+2012 | The 8th National Conference on Computing and Information Technology - "Using Ant Colony Algorithm for Weight Setting in OSPF Network"
 Introduction to Cybersecurity | Cisco Networking Academy
 
 ___
