@@ -8,6 +8,7 @@
 Ekawut Chairat received his B.Eng. degrees in computer engineering from Kasetsart University Kamphaeng Saen Campus in 2012, respectively. He also studies in Master of Science in Network Engineering and Information Security at Mahanakorn University of Technology.
 
 Ekawut Chairat started his career as Network Architecture at Bangkok Bank Public Company Limited.
+[I'm an inline-style link](https://www.google.com)
 
 His interests include computer and network security, information security and computer networks.
 
