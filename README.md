@@ -15,11 +15,13 @@ His hobbies include Photography, Traveling.
 
 ### Education
 
-2019 - Present
+**2019 - Present**
+
 Master of Science in Network Engineering and Information Security
 Mahanakorn University of Technology
 
-2008 - 2012
+**2008 - 2012**
+
 Bachelor of Engineering in Computer Engineering
 Kasetsart University Kamphaeng Saen Campus
 
