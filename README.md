@@ -46,9 +46,9 @@ Year | Awards and Achievements
 
 ### General Skills
 
-* Communication
 * Leadership
 * Teamwork
 * Problem Solving
 * Decision Making
 * Working Under Pressure
+* Communication
