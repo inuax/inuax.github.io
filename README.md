@@ -14,19 +14,17 @@ His interests include computer and network security, information security and co
 His hobbies include Photography, Traveling.
 
 ### Education 
-------
+___
 2019 - Present
-
 Master of Science in Network Engineering and Information Security
 Mahanakorn University of Technology
 
 2008 - 2012
-
 Bachelor of Engineering in Computer Engineering
 Kasetsart University Kamphaeng Saen Campus
 
 ### Awards and Achievements
-------
+___
 * 2012 - The 8th National Conference on Computing and Information Technology
   "Using Ant Colony Algorithm for Weight Setting in OSPF Network"
 * 2011 - National Out Standing Youth and Youth Supporter Club in Inventions and Innovations Category
@@ -34,7 +32,7 @@ Kasetsart University Kamphaeng Saen Campus
 * 2010 - Won Second Place in **Techfest iNexus Thailand** held at The [Asian Institute of Technology](https://www.ait.ac.th)
 
 ### Technical Skill
-------
+___
 * Designing and implementing network
 * Switching and Routing
 * Installing, configuring and supporting network equipment
@@ -44,7 +42,7 @@ Kasetsart University Kamphaeng Saen Campus
 * Programming Languages: Python, C++, C#, JAVA, PHP, HTML
 
 ### General Skills
-------
+___
 * Communication
 * Leadership
 * Teamwork
