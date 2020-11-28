@@ -25,6 +25,11 @@ Kasetsart University Kamphaeng Saen Campus
 
 ### Awards and Achievements
 
+Cert name | Issuer
+------ | ------
+Security+ | CompTIA
+Introduction to Cybersecurity | Cisco Networking Academy
+
 ___
 Year | Award 
 ----- | -----
