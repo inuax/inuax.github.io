@@ -13,8 +13,8 @@ His interests include computer and network security, information security and co
 
 His hobbies include Photography, Traveling.
 
-### Education 
-___
+### Education
+
 2019 - Present
 Master of Science in Network Engineering and Information Security
 Mahanakorn University of Technology
@@ -33,7 +33,7 @@ Year | Awards and Achievements
 2010 | Won Second Place in **Techfest iNexus Thailand** held at The [Asian Institute of Technology](https://www.ait.ac.th)
 
 ### Technical Skill
-___
+
 * Designing and implementing network
 * Switching and Routing
 * Installing, configuring and supporting network equipment
@@ -43,7 +43,7 @@ ___
 * Programming Languages: Python, C++, C#, JAVA, PHP, HTML
 
 ### General Skills
-___
+
 * Communication
 * Leadership
 * Teamwork
