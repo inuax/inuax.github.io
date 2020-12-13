@@ -1,4 +1,4 @@
-# Testcase - Log Content Requirements
+# Testcase - Log Content Requirement
 ### Verify that the application does not log credentials or payment details
 
 ### Preconditions
