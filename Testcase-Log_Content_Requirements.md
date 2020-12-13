@@ -1,4 +1,4 @@
-# Testcase - V7.1 Log Content Requirements
+# Testcase - Log Content Requirements
 ### Verify that the application does not log credentials or payment details
 
 ### Preconditions
