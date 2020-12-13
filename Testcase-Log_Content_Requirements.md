@@ -24,6 +24,7 @@
 * Application dose not log Credit Card Number in Log File
 
 
-### Team Author
-#### Ekawut Chairat
-#### Hachol Dabthong
+### Team Author 
+Ekawut Chairat
+
+Hachol Dabthong
