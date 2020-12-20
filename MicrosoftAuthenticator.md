@@ -20,6 +20,8 @@ Two-step verification begins with an email address (we recommend two different e
 
 1. Under Two-step verification, choose Set up two-step verification to turn it on, or choose Turn off two-step verification to turn it off.
 
+![](img/MSA_enable2step.png)
+
 # How to use the Microsoft Authenticator app
 
 Use two-step verification for more security
@@ -30,57 +32,35 @@ If you need more security, you can require a password along with your fingerprin
 
 ![](img/MS_authenticator_app.png)
 
-### Step 1:
+1. Open the Microsoft Authentication app on your mobile device.
 
-Choose the mobile app
+![](img/MSA_step1.png)
 
-Open a browser on your computer and go to portal.office.com. Sign in to your Office 365 for business account.
+2. On iOS, select the plus icon in the upper right
 
-![](img/MS_step1.png)
+![](img/MSA_step2.png)
 
-### Step 2:
+3. In the Add account page, choose Personal account.
 
-Wait for configuration pop-up box.
+![](img/MSA_step3.png)
 
-You should see a window on your computer that looks like this.
+4. Select Sign in with Microsoft to add your account. A QR code can be used when avaliable, but you can alway add your account by signing in with your username and password.
 
-![](img/MS_step2.png)
+![](img/MSA_step4.png)
 
-### Step 3:
+5. Sign in to your personal account, using the appropriate email address (such as john@outlook.com), and then select Next.
 
-Add account to Microsoft Authenticator
+6. Enter your password, and then select Signin. Your personal account is added to the Microsoft Authenticator app.
 
-![](img/MS_step3.png)
+![](img/MSA_step5.png)
 
-### Step 4:
-
-Confirm activation status on your computer
-
-Switch back to your computer and click Done.
-
-Now wait for the Checking activation status text to finish configuring your phone.
-
-When it's complete, you'll be able to click the Contact me button on the right.
-
-![](img/MS_step4.png)
-
-### Step5:
-
-Approve sign in on your phone
-1. Switch back to your phone and you'll see a notification for a new sign in.
-1. Go to the Microsoft Authenticator app.
-1. Tap Approve to allow it.
-
-![](img/MS_step5.png)
-
-### Step6:
 
 Finish set up
 
-1. Back on the computer, follow any prompts that you might see such as adding a mobile number.
-1. You're good to go!
+* Back on the computer, Sign in to your personal account.
+* From now on, whenever you have a new sign in your Microsoft account, you'll open the Authenticator app on your phone and tap Approve.
 
-From now on, whenever you have a new sign in or add your Microsoft 365 work or school account to an app, you'll open the Authenticator app on your phone and tap Approve.
+![](img/MSA_login1.png)
 
 ### Reference:
 * [How to use two-step verification with your Microsoft account](https://support.microsoft.com/en-us/account-billing/how-to-use-two-step-verification-with-your-microsoft-account-c7910146-672f-01e9-50a0-93b4585e7eb4)
