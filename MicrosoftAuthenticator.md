@@ -56,7 +56,7 @@ If you need more security, you can require a password along with your fingerprin
 
 ![](img/MSA_step5.png)
 
-## Finish set up
+### Finish set up
 
 * Back on the computer, Sign in to your personal account.
 * From now on, whenever you have a new sign in your Microsoft account, you'll open the Authenticator app on your phone and tap Approve.
