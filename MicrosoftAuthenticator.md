@@ -28,7 +28,11 @@ If you need more security, you can require a password along with your fingerprin
 
 ## Set up the Microsoft Authenticator app
 
-![](img/MS_authenticator_app.png )
+![](img/MS_authenticator_app.png ){
+  width: 70%;
+  border: none;
+  background: none;
+}
 
 ### Step 1:
 
@@ -86,7 +90,7 @@ From now on, whenever you have a new sign in or add your Microsoft 365 work or s
 * [How to use two-step verification with your Microsoft account](https://support.microsoft.com/en-us/account-billing/how-to-use-two-step-verification-with-your-microsoft-account-c7910146-672f-01e9-50a0-93b4585e7eb4)
 * [Use Microsoft Authenticator with Microsoft 365](https://support.microsoft.com/en-us/office/use-microsoft-authenticator-with-microsoft-365-1412611f-ad8d-43ab-807c-7965e5155411#ID0EAADAAA=_Step_1)
 
-### Team Author
+### Team Author:
 Ekawut Chairat
 
 Hachol Dabthong
