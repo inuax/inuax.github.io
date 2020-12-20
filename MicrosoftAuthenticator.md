@@ -32,25 +32,25 @@ If you need more security, you can require a password along with your fingerprin
 
 ![](img/MS_authenticator_app.png)
 
-1. Open the Microsoft Authentication app on your mobile device.
+Step 1: Open the Microsoft Authentication app on your mobile device.
 
 ![](img/MSA_step1.png)
 
-2. On iOS, select the plus icon in the upper right
+Step 2: On iOS, select the plus icon in the upper right
 
 ![](img/MSA_step2.png)
 
-3. In the Add account page, choose Personal account.
+Step 3: In the Add account page, choose Personal account.
 
 ![](img/MSA_step3.png)
 
-4. Select Sign in with Microsoft to add your account. A QR code can be used when avaliable, but you can alway add your account by signing in with your username and password.
+Step 4: Select Sign in with Microsoft to add your account. A QR code can be used when avaliable, but you can alway add your account by signing in with your username and password.
 
 ![](img/MSA_step4.png)
 
-5. Sign in to your personal account, using the appropriate email address (such as john@outlook.com), and then select Next.
+Step 5: Sign in to your personal account, using the appropriate email address (such as john@outlook.com), and then select Next.
 
-6. Enter your password, and then select Signin. Your personal account is added to the Microsoft Authenticator app.
+Step 6: Enter your password, and then select Signin. Your personal account is added to the Microsoft Authenticator app.
 
 ![](img/MSA_step5.png)
 
