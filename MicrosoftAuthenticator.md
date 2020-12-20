@@ -28,11 +28,7 @@ If you need more security, you can require a password along with your fingerprin
 
 ## Set up the Microsoft Authenticator app
 
-![](img/MS_authenticator_app.png ){
-  width: 70%;
-  border: none;
-  background: none;
-}
+![](img/MS_authenticator_app.png )
 
 ### Step 1:
 
