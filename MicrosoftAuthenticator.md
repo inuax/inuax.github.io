@@ -1,5 +1,7 @@
 # How to use two-step verification with your Microsoft account
 
+![](img/MSA_logo.png)
+
 ## What two-step verification is
 
 Two-step verification helps protect you by making it more difficult for someone else to sign in to your Microsoft account. It uses two different forms of identity: your password, and a contact method (also known as security info). Even if someone else finds your password, they'll be stopped if they don't have access to your security info. This is also why it's important to use different passwords for all your accounts.
