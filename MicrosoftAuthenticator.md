@@ -82,11 +82,12 @@ Finish set up
 
 From now on, whenever you have a new sign in or add your Microsoft 365 work or school account to an app, you'll open the Authenticator app on your phone and tap Approve.
 
-### Team Author
-Ekawut Chairat
-Hachol Dabthong
-
-Reference:
+### Reference:
 * [How to use two-step verification with your Microsoft account](https://support.microsoft.com/en-us/account-billing/how-to-use-two-step-verification-with-your-microsoft-account-c7910146-672f-01e9-50a0-93b4585e7eb4)
 * [Use Microsoft Authenticator with Microsoft 365](https://support.microsoft.com/en-us/office/use-microsoft-authenticator-with-microsoft-365-1412611f-ad8d-43ab-807c-7965e5155411#ID0EAADAAA=_Step_1)
+
+### Team Author
+Ekawut Chairat
+
+Hachol Dabthong
 
