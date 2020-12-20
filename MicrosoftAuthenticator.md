@@ -14,17 +14,17 @@ Two-step verification begins with an email address (we recommend two different e
 
 ## Turn two-step verification on or off
 
-1. Go to the Security basics page and sign in with your Microsoft account.
+**Step 1:** Go to the Security basics page and sign in with your Microsoft account.
 
-1. Select More security options.
+**Step 2:** Select More security options.
 
-1. Under Two-step verification, choose Set up two-step verification to turn it on, or choose Turn off two-step verification to turn it off.
+**Step 3:** Under Two-step verification, choose Set up two-step verification to turn it on, or choose Turn off two-step verification to turn it off.
 
 ![](img/MSA_enable2step.png)
 
 # How to use the Microsoft Authenticator app
 
-Use two-step verification for more security
+**Use two-step verification for more security**
 
 If you need more security, you can require a password along with your fingerprint, face recognition, or PIN. This is called two-step verification. For a personal account, you can turn two-step verification on or off, and reset your password. You can also manage app passwords and change your settings. For a work or school account, your administrator will likely decide whether you'll use two-step verification, and then you'll complete the registration process and set it up.
 
