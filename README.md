@@ -1,7 +1,7 @@
 # inuax.github.io
 # Ekawut Chairat 
 
-![](Ekawut_image.jpg){:height="50%" width="25%" style="float: right"}
+![](img/Ekawut_image.jpg){:height="50%" width="25%" style="float: right"}
 
 ### AKA "หัวลาก"
 
