@@ -32,30 +32,29 @@ If you need more security, you can require a password along with your fingerprin
 
 ![](img/MS_authenticator_app.png)
 
-Step 1: Open the Microsoft Authentication app on your mobile device.
+**Step 1:** Open the Microsoft Authentication app on your mobile device.
 
 ![](img/MSA_step1.png)
 
-Step 2: On iOS, select the plus icon in the upper right
+**Step 2:** On iOS, select the plus icon in the upper right. (On Android, select Add account from the Customize and Control icon in the upper right)
 
 ![](img/MSA_step2.png)
 
-Step 3: In the Add account page, choose Personal account.
+**Step 3:** In the Add account page, choose Personal account.
 
 ![](img/MSA_step3.png)
 
-Step 4: Select Sign in with Microsoft to add your account. A QR code can be used when avaliable, but you can alway add your account by signing in with your username and password.
+**Step 4:** Select Sign in with Microsoft to add your account. A QR code can be used when avaliable, but you can alway add your account by signing in with your username and password.
 
 ![](img/MSA_step4.png)
 
-Step 5: Sign in to your personal account, using the appropriate email address (such as john@outlook.com), and then select Next.
+**Step 5:** Sign in to your personal account, using the appropriate email address (such as john@outlook.com), and then select Next.
 
-Step 6: Enter your password, and then select Signin. Your personal account is added to the Microsoft Authenticator app.
+**Step 6:** Enter your password, and then select Signin. Your personal account is added to the Microsoft Authenticator app.
 
 ![](img/MSA_step5.png)
 
-
-Finish set up
+## Finish set up
 
 * Back on the computer, Sign in to your personal account.
 * From now on, whenever you have a new sign in your Microsoft account, you'll open the Authenticator app on your phone and tap Approve.
@@ -64,7 +63,7 @@ Finish set up
 
 ### Reference:
 * [How to use two-step verification with your Microsoft account](https://support.microsoft.com/en-us/account-billing/how-to-use-two-step-verification-with-your-microsoft-account-c7910146-672f-01e9-50a0-93b4585e7eb4)
-* [Use Microsoft Authenticator with Microsoft 365](https://support.microsoft.com/en-us/office/use-microsoft-authenticator-with-microsoft-365-1412611f-ad8d-43ab-807c-7965e5155411#ID0EAADAAA=_Step_1)
+* [Add personal Microsoft accounts to the Microsoft Authenticator app](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-add-personal-ms-account)
 
 ### Team Author:
 Ekawut Chairat
