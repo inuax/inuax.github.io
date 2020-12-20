@@ -26,11 +26,11 @@ Two-step verification begins with an email address (we recommend two different e
 
 # How to use the Microsoft Authenticator app
 
-**Use two-step verification for more security**
+### Use two-step verification for more security
 
 If you need more security, you can require a password along with your fingerprint, face recognition, or PIN. This is called two-step verification. For a personal account, you can turn two-step verification on or off, and reset your password. You can also manage app passwords and change your settings. For a work or school account, your administrator will likely decide whether you'll use two-step verification, and then you'll complete the registration process and set it up.
 
-## Set up the Microsoft Authenticator app
+### Set up the Microsoft Authenticator app
 
 ![](img/MS_authenticator_app.png)
 
