@@ -14,7 +14,7 @@ Zero Trust Security เป็นรูปแบบการรักษาคว
 
 แนวคิด Zero Trust ถูกสร้างโดย John Kindervag ในปี ค.ศ. 2010 และอีกหลายปีให้หลังทางบริษัท Google ก็ได้ออกมาประกาศว่าได้นำแนวคิดนี้มาใช้ภายใต้โปรเจ็ค "BeyondCorp" และนอกจากนี้ก็มีทาง Gartner ที่ได้ออก Framework ที่เรียกว่า "Continuous Adaptive Risk and Trust Assessment" หรือ "CARTA" ซึ่งมีแนวคิดเปลี่ยนการตัดสินใจการเข้าถึงที่พิจารณา Network Topology มาเป็นการพิสูจน์ตัวตนของผู้ใช้งานและอุปกรณ์แทน
 
-![](img/carta.png)
+![](img/carta.png){:height="70%" width="70%"}
 
 ## What are the main principles and technologies behind zero trust security?
 Zero Trust เชื่อว่ามีผู้โจมตีทั้งภายในและภายนอกเครือข่าย ดังนั้นจึงไม่ควรเชื่อถือผู้ใช้งานหรืออุปกรณ์ใดโดยอัตโนมัติ
