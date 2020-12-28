@@ -6,7 +6,7 @@
 ![](img/castle-and-moat_security_model.png){:height="75%" width="75%"}
 
 ## Zero Trust Security
-Zero Trust Security เป็นรูปแบบการรักษาความปลอดภัยด้านไอทีที่ต้องการการยืนยันตัวตนสำหรับผู้ใช้งานทุกคนและทุกอุปกรณ์ที่พยายามเข้าถึงทรัพยากรบนเครือข่ายอย่างเข้มงวด ไม่ว่าจะอยู่ภายในหรือจากภายนอกองค์กรก็ตาม โดย Zero trust security เป็นแนวทางแบบองค์รวมในการรักษาความปลอดภัยเครือข่ายที่รวมเอาหลักการและเทคโนโลยีที่หลากหลายเข้าไว้ด้วยกัน ดังนั้น Zero Trust นั้นเป็นแค่แนวคิดภาพรวมซึ่งไม่ได้อ้างอิงกับเทคโนโลยีใด ส่วนแนวทางนั้นสุดแล้วแต่ผู้ใช้งานจะนำไปใช้ให้เหมาะสมในทางของตัวเอง
+Zero Trust Security เป็นรูปแบบการรักษาความปลอดภัยด้าน IT ที่ต้องการการยืนยันตัวตนสำหรับผู้ใช้งานทุกคนและทุกอุปกรณ์ที่พยายามเข้าถึงทรัพยากรบนเครือข่ายอย่างเข้มงวด ไม่ว่าจะอยู่ภายในหรือจากภายนอกองค์กรก็ตาม โดย Zero trust security เป็นแนวทางแบบองค์รวมในการรักษาความปลอดภัยเครือข่ายที่รวมเอาหลักการและเทคโนโลยีที่หลากหลายเข้าไว้ด้วยกัน ดังนั้น Zero Trust นั้นเป็นแค่แนวคิดภาพรวมซึ่งไม่ได้อ้างอิงกับเทคโนโลยีใด ส่วนแนวทางนั้นสุดแล้วแต่ผู้ใช้งานจะนำไปใช้ให้เหมาะสมในทางของตัวเอง
 
 ![](img/zero-trust-model.png)
 
@@ -14,7 +14,7 @@ Zero Trust Security เป็นรูปแบบการรักษาคว
 
 แนวคิด Zero Trust ถูกสร้างโดย John Kindervag ในปี ค.ศ. 2010 และอีกหลายปีให้หลังทางบริษัท Google ก็ได้ออกมาประกาศว่าได้นำแนวคิดนี้มาใช้ภายใต้โปรเจ็ค "BeyondCorp" และนอกจากนี้ก็มีทาง Gartner ที่ได้ออก Framework ที่เรียกว่า "Continuous Adaptive Risk and Trust Assessment" หรือ "CARTA" ซึ่งมีแนวคิดเปลี่ยนการตัดสินใจการเข้าถึงที่พิจารณา Network Topology มาเป็นการพิสูจน์ตัวตนของผู้ใช้งานและอุปกรณ์แทน
 
-![](img/beyond_corp.png)
+![](img/carta.png)
 
 ## What are the main principles and technologies behind zero trust security?
 Zero Trust เชื่อว่ามีผู้โจมตีทั้งภายในและภายนอกเครือข่าย ดังนั้นจึงไม่ควรเชื่อถือผู้ใช้งานหรืออุปกรณ์ใดโดยอัตโนมัติ
@@ -46,7 +46,11 @@ Zero Trust เชื่อว่ามีผู้โจมตีทั้งภ
 
 ![](img/bio.png){:height="40%" width="40%"}
 
-Reference:
+## เริ่มต้นโมเดล Zero Trust ด้วย 5 ขั้นตอน
+
+
+
+**Reference:**
 * [https://www.cloudflare.com/en-ca/learning/security/glossary/what-is-zero-trust](https://www.cloudflare.com/en-ca/learning/security/glossary/what-is-zero-trust)
 * [https://www.cloudflare.com/en-ca/learning/access-management/what-is-identity-and-access-management/](https://www.cloudflare.com/en-ca/learning/access-management/what-is-identity-and-access-management/)
 * [https://www.techtalkthai.com/zero-trust-concept-and-how-to-in-practical-by-cisco/](https://www.techtalkthai.com/zero-trust-concept-and-how-to-in-practical-by-cisco/)
