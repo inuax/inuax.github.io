@@ -12,7 +12,7 @@ Zero Trust Security เป็นรูปแบบการรักษาคว
 
 ## What is the history of zero trust security?
 
-แนวคิด Zero Trust ถูกสร้างโดย John Kindervag ในปี ค.ศ. 2010 และอีกหลายปีให้หลังทางบริษัท Google ก็ได้ออกมาประกาศว่าได้นำแนวคิดนี้มาใช้ภายใต้โปรเจ็ค ‘BeyondCorp’ และนอกจากนี้ก็มีทาง Gartner ที่ได้ออก Framework ที่เรียกว่า ‘Continuous Adaptive Risk and Trust Assessment หรือ “CARTA” ซึ่งมีแนวคิดเปลี่ยนการตัดสินใจการเข้าถึงที่พิจารณา Network Topology มาเป็นการพิสูจน์ตัวตนของผู้ใช้งานและอุปกรณ์แทน
+แนวคิด Zero Trust ถูกสร้างโดย John Kindervag ในปี ค.ศ. 2010 และอีกหลายปีให้หลังทางบริษัท Google ก็ได้ออกมาประกาศว่าได้นำแนวคิดนี้มาใช้ภายใต้โปรเจ็ค "BeyondCorp" และนอกจากนี้ก็มีทาง Gartner ที่ได้ออก Framework ที่เรียกว่า "Continuous Adaptive Risk and Trust Assessment" หรือ "CARTA" ซึ่งมีแนวคิดเปลี่ยนการตัดสินใจการเข้าถึงที่พิจารณา Network Topology มาเป็นการพิสูจน์ตัวตนของผู้ใช้งานและอุปกรณ์แทน
 
 ![](img/beyond_corp.png)
 
@@ -36,11 +36,11 @@ Zero Trust เชื่อว่ามีผู้โจมตีทั้งภ
 
 ![](img/Username-and-Password.png){:height="40%" width="40%"}
 
-* **Something the user have**: เป็นการ Authentication นอกจากจะมี password ที่ต้องจำแล้วยังต้องใช้อุปกรณ์เสริมเข้ามาใช้ในการเข้าระบบด้วยเช่น บัตร ATM, RSA Token, Access card, Smart card เป็นต้น
+* **Something the user have**: เป็นการ Authentication นอกจากจะมี password ที่ต้องจำแล้วยังต้องใช้อุปกรณ์เสริมเข้ามาใช้ในการเข้าระบบด้วย เช่น RSA Token, Access card, Smart card เป็นต้น
 
 ![](img/token.png){:height="40%" width="40%"}
 
-* **Something the user are**: การนำเทคโนโลยี “Biometric” เข้ามาใช้ในการตรวจสอบตัวตนโดยอาศัยคุณสมบัติทางกายภาพของร่างกาย และมีลักษณะที่เป็น unique คือ ไม่ซ้ำกัน ได้แก่ ลายนิ้วมือ, ม่านตา เป็นต้น ตัวอย่างทั่วไปของปัจจัยในการตรวจสอบสิทธิ์นี้คือ Face ID ซึ่งเป็นคุณสมบัติที่นำเสนอโดยสมาร์ทโฟนสมัยใหม่จำนวนมาก
+* **Something the user are**: การนำเทคโนโลยี "Biometric" เข้ามาใช้ในการตรวจสอบตัวตนโดยอาศัยคุณสมบัติทางกายภาพของร่างกาย และมีลักษณะที่เป็น unique คือ ไม่ซ้ำกัน ได้แก่ ลายนิ้วมือ, ม่านตา เป็นต้น ตัวอย่างทั่วไปของปัจจัยในการตรวจสอบสิทธิ์นี้คือ Face ID ซึ่งเป็นคุณสมบัติที่นำเสนอโดยสมาร์ทโฟนสมัยใหม่จำนวนมาก
 
 ![](img/bio.png){:height="40%" width="40%"}
 
