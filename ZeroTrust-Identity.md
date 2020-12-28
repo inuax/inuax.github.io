@@ -34,15 +34,15 @@ Zero Trust เชื่อว่ามีผู้โจมตีทั้งภ
 
 * **Something the user knows**: ปัจจัยนี้เป็นความรู้ที่ผู้ใช้เพียงคนเดียวควรมี ที่มักนิยมกันอย่างแพร่หลานเช่น ชื่อผู้ใช้และรหัสผ่าน เป็นต้น
 
-![](img/Username-and-Password.png){:height="30%" width="30%"}
+![](img/Username-and-Password.png){:height="40%" width="40%"}
 
 * **Something the user have**: เป็นการ Authentication นอกจากจะมี password ที่ต้องจำแล้วยังต้องใช้อุปกรณ์เสริมเข้ามาใช้ในการเข้าระบบด้วยเช่น บัตร ATM, RSA Token, Access card, Smart card เป็นต้น
 
-![](img/token.png){:height="30%" width="30%"}
+![](img/token.png){:height="40%" width="40%"}
 
 * **Something the user are**: การนำเทคโนโลยี “Biometric” เข้ามาใช้ในการตรวจสอบตัวตนโดยอาศัยคุณสมบัติทางกายภาพของร่างกาย และมีลักษณะที่เป็น unique คือ ไม่ซ้ำกัน ได้แก่ ลายนิ้วมือ, ม่านตา เป็นต้น ตัวอย่างทั่วไปของปัจจัยในการตรวจสอบสิทธิ์นี้คือ Face ID ซึ่งเป็นคุณสมบัติที่นำเสนอโดยสมาร์ทโฟนสมัยใหม่จำนวนมาก
 
-![](img/bio.png){:height="30%" width="30%"}
+![](img/bio.png){:height="40%" width="40%"}
 
 Reference:
 * [https://www.cloudflare.com/en-ca/learning/access-management/what-is-identity-and-access-management/](https://www.cloudflare.com/en-ca/learning/access-management/what-is-identity-and-access-management/)
