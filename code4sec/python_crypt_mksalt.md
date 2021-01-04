@@ -1,4 +1,4 @@
-# Hashes should include an unpredictable salt
+#  Day X - Hashes should include an unpredictable salt
 
 ## Salting
 
@@ -80,5 +80,6 @@ print('Generate password completed')
 * [https://rules.sonarsource.com/python/type/Vulnerability/RSPEC-2053](https://rules.sonarsource.com/python/type/Vulnerability/RSPEC-2053)
 * [https://www.thaicert.or.th/papers/technical/2012/pa2012te013.html](https://www.thaicert.or.th/papers/technical/2012/pa2012te013.html)
 
-**Author:** 
-Ekawut Chairat
+**Author:** Ekawut Chairat
+
+### Code4Sec
