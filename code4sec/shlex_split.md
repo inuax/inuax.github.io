@@ -30,7 +30,7 @@ print(resolve_domain)
 
 จะเห็นว่าเมื่อเราทำการเพิ่ม input ด้วย OS command คำสั่ง "; ls -al" ต่อท้าย ทำให้โปรแกรมแสดง list ของ file และ directory ออกมาเป็นการทำ OS Command Injection Attack ผ่านช่องโหว่ของโปรแกรม
 
-เรียกใช้งานโดยผสามารถ import library ได้เลย
+เรียกใช้งาน shlex โดยผสามารถ import library ได้เลย
 
 ``` python
 import subprocess
