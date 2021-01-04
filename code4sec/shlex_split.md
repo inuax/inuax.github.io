@@ -52,8 +52,8 @@ OS จะไม่ดำเนินการคำสั่งและโป�
 ![](img/shlex_4.png)
 
 Reference: 
-* https://standard.etda.or.th/wp-content/uploads/2018/09/20150405-ER-WAS-V07-33-R1.pdf
-* https://docs.python.org/3/library/shlex.html
-* https://www.linkedin.com/pulse/os-command-injection-from-pythondjango-perspective-jerin-jose
+* [https://standard.etda.or.th/wp-content/uploads/2018/09/20150405-ER-WAS-V07-33-R1.pdf](https://standard.etda.or.th/wp-content/uploads/2018/09/20150405-ER-WAS-V07-33-R1.pdf)
+* [https://docs.python.org/3/library/shlex.html](https://docs.python.org/3/library/shlex.html)
+* [https://www.linkedin.com/pulse/os-command-injection-from-pythondjango-perspective-jerin-jose](https://www.linkedin.com/pulse/os-command-injection-from-pythondjango-perspective-jerin-jose)
 
 Team Author: Ekawut Chairat
