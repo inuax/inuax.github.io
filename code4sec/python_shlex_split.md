@@ -1,5 +1,5 @@
 # How to prevent OS Command Injection in Python
-### **#Code4Sec Week #DayX #NEIS0736 #NECS0736**
+### **#Code4Sec Week #Day1 #NEIS0736 #NECS0736**
 
 ## OS Command Injection
 หากเรามีการพัฒนาโปรแกรมที่มีการใช้คำสั่ง (OS Command) เช่น exec(), shell_exec(), open(), nslookup() ร่วมกับการพัฒนาโปรแกรม จะทำให้เกิดช่องโหว่ที่ทำให้ผู้ไม่หวังดีสามารถโจมตีผ่านคำสั่งระดับระบบปฏิบัติการ เผื่อสามารถสั่งดำเนินการใดๆ ผ่านโปรแกรมที่มีช่องโหว่ได้ ซึ่งอาจจะนำไปสู่การรั่วไหลของข้อมูล เข้าควบคุมเครื่อง หรือใช้เป็นฐานเพื่อโจมตีไปยังเครื่องอื่นๆ ได้ ซึ่งช่องโหว่นี้ถูกเรียนกันว่า "OS Command Injection Vulnerability" และการโจมตีที่อาศัยข่องโหว่นี้เรียกว่า "OS Command Injection Attack"
