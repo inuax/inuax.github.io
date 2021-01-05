@@ -57,6 +57,6 @@ OS จะไม่ดำเนินการคำสั่งและโป�
 * [https://docs.python.org/3/library/shlex.html](https://docs.python.org/3/library/shlex.html)
 * [https://www.linkedin.com/pulse/os-command-injection-from-pythondjango-perspective-jerin-jose](https://www.linkedin.com/pulse/os-command-injection-from-pythondjango-perspective-jerin-jose)
 
-**Team Author:** 
+**Powered By :**
 
 Ekawut Chairat
