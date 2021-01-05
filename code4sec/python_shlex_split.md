@@ -6,7 +6,7 @@
 
 ![](img/shlex_1.png)
 
-ปัญหาสามารถบรรเทาได้ด้วยวิธีใด ๆ ต่อไปนี้:
+เราสามารถลดปัญหาได้โดยต่อไปนี้:
 * ใช้งาน subprocess module โดยไม่มี shell = true ทำให้ subprocess แยก command array และ argument array ออกจากกันอย่างชัดเจน
 * Escaping shell argument ด้วย shlex.quote() หรือ shlex.split()
 
