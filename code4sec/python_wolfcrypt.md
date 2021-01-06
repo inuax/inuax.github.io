@@ -1,16 +1,16 @@
 # Symmetric Key Algorithms with Wolfcrypt
 
-### **#Code4Sec Week #DayX #NEIS0736 #NECS0736**
+### **#Code4Sec Week #Day2 #NEIS0736 #NECS0736**
 
 ## Symmetric-key Cryptography
 
-ระบบรหัสแบบสมมาตร (Symmetric-key Cryptography) เป็นระบบรหัสที่ใช้ Key ชุดเดียวกันทั้งผู้ส่งและผู้รับในการเข้ารหัสและถอดรหัสลับ จากสาเหตุนี้จึงเป็นที่มาของชื่อระบบรหัสแบบสมมาตร เนื่องจากคำว่า “สมมาตร” เป็นการอธิบายถึงความเท่ากันหรือเหมือนกันของทั้งสองข้าง   Key ซึ่งอยู่ในรูปรหัสเป็นตัวแปรสำคัญสำหรับการเข้าและถอดรหัสลับข้อมูล ซึ่งขนาดของ Key มีหน่วยเป็น bit จะแสดงถึงระดับความปลอดภัยของข้อมูลที่ได้รับการเข้ารหัสลับ โดยการใช้ Key ที่มีความยาวหรือจำนวนบิตมาก จะทำให้การเข้ารหัสลับข้อมูลนั้นมีความปลอดภัยมากยิ่งขึ้นอีกด้วย
+การเข้ารหัสแบบสมมาตร (Symmetric-key Cryptography) เป็นการเข้ารหัสที่ใช้ Key ชุดเดียวกันทั้งผู้ส่งและผู้รับในการเข้ารหัสและถอดรหัสลับ จากสาเหตุนี้จึงเป็นที่มาของชื่อระบบรหัสแบบสมมาตรเป็นการอธิบายถึงความเท่ากันหรือเหมือนกันของทั้งสองข้าง   Key ซึ่งอยู่ในรูปรหัสเป็นตัวแปรสำคัญสำหรับการเข้าและถอดรหัสลับข้อมูล ซึ่งขนาดของ Key มีหน่วยเป็น bit จะแสดงถึงระดับความปลอดภัยของข้อมูลที่ได้รับการเข้ารหัสลับ โดยการใช้ Key ที่มีความยาวหรือจำนวนบิตมาก จะทำให้การเข้ารหัสลับข้อมูลนั้นมีความปลอดภัยมากยิ่งขึ้นอีกด้วย
 
 ![](img/wolfcrypt_1.png)
 
 ที่นี่เรามาลองทำ Symmetric-key Cryptography ด้วย Wolfcrypt จากภาษา Python กันเลย
 
-ในตัวอย่างจะเป็นการเข้ารหัส Symmetric-key Cryptography ด้วย Advanced Encryption Standard หรือ AES โดย wolfcrypt.ciphers มี class ที่สามารถเรียกใช้งานกันได้เลย
+ในตัวอย่างจะเป็นการเข้ารหัส Symmetric-key Cryptography แบบ Advanced Encryption Standard หรือ AES โดย wolfcrypt.ciphers มี class ที่สามารถเรียกใช้งานกันได้เลย
 
 ``` python 
 class Aes(_Cipher):
@@ -48,7 +48,13 @@ class wolfcrypt.ciphers.Aes(key, mode, IV=None)
 ```
 The Advanced Encryption Standard (AES), a.k.a. Rijndael, is a symmetric-key cipher standardized by NIST.
 
-โดยสิ่งที่เราต้องระบุให้กับ Aes คือ key = neis0736necs0736, mode = MODE_CBC, IV=0123456789abcdef
+โดยสิ่งที่เราต้องระบุให้กับ Aes คือ 
+
+key = neis0736necs0736
+
+mode = MODE_CBC
+
+IV=0123456789abcdef
 
 และข้อมูลที่เราจะทำการ encrypt คือคำว่า "Code 4 Sec Week "
 
@@ -77,4 +83,6 @@ print('Plain Text = ', plaintext)
 Reference: 
 * [https://wolfssl.github.io/wolfcrypt-py/symmetric.html](https://wolfssl.github.io/wolfcrypt-py/symmetric.html)
 
-**Team Author:** Ekawut Chairat
+**Team Author:** 
+
+Ekawut Chairat
