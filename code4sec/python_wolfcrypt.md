@@ -58,7 +58,7 @@ IV=0123456789abcdef
 
 และข้อมูลที่เราจะทำการ encrypt คือคำว่า "Code 4 Sec Week "
 
-**Example:**
+**Encrypt:**
 
 ``` python
 from wolfcrypt.ciphers import Aes, MODE_CBC
@@ -68,17 +68,34 @@ cipher = Aes(b'neis0736necs0736', MODE_CBC, b'0123456789abcdef')
 # Encrypt
 ciphertext = cipher.encrypt('Code 4 Sec Week ')
 print('Cipher Text = ', ciphertext)
-
-# Decrypt
-plaintext = cipher.decrypt(ciphertext)
-print('Plain Text = ', plaintext)
 ```
 
 **Result:**
 
 ![](img/wolfcrypt_2.png)
+จากการลองทำ  ข้อมูลจะเห็นว่า wolfcrypt จะทำการ encrypt คำว่า "Code 4 Sec Week " ให้เป็น cipher text ที่ถูกเข้ารหัสด้วย key ที่เราระบุ จะได้ผลลัพธ์จากการเข้ารหัสเป็น cipher text ที่อ่านไม่ออกแบบด้านบน จะทำให้เราสามารถส่งหรือจัดเก็บข้อมูลได้อย่างปลอดภัย
 
-จากการลองทำ  ข้อมูลจะเห็นว่า wolfcrypt จะทำการ encrypt คำว่า "Code 4 Sec Week " ให้เป็น cipher text ที่ถูกเข้ารหัสด้วย key ที่เราระบุ หลังจากนั้นลองทำการ decrypt ข้อมูล cipher text ด้วย key เดิม เราจะได้ plain text เป็นข้อมูลเดิม คือ คำว่า "Code 4 Sec Week " ตามหลักการของ Symmetric-key Cryptography
+**Decrypt:**
+
+หากเรารู้ key สำหรับเข้ารหัส ก็จะสามารถทำการถอดรหัสข้อมูลได้ จากตัวอย่าง key = neis0736necs0736 มาลองถอดรหัสข้อมูลจาก cipher text ที่มีกันเลย
+
+``` python
+from wolfcrypt.ciphers import Aes, MODE_CBC
+
+cipher = Aes(b'neis0736necs0736', MODE_CBC, b'0123456789abcdef')
+
+# Decrypt
+ciphertext = "*\xb7\xc1{\xd8g\xd9\xa9\x1a\x82\xbf\xb6l\xbc'z"
+plaintext = cipher.decrypt(ciphertext)
+print('Plain Text = ', plaintext)
+``` 
+
+**Result:**
+![](img/wolfcrypt_3.png)
+
+หลังจากการ decrypt ข้อมูล cipher text ด้วย key ที่เรารู้ เราจะได้ plain text เป็นข้อมูลเดิม คือ คำว่า "Code 4 Sec Week " ตามหลักการของ Symmetric-key Cryptography
+
+**จะเห็นได้ว่า Key เป็นสิ่งที่มีความสำคัญในการทำการเข้ารหัสและถอดรหัสข้อมูล จึงเป็นสิ่งที่ควรเป็นความลับเฉพาะเท่านั้น หากมีผู้อื่นรู้ Key ของเราก็จะถอดรหัสข้อมูลได้เช่นกัน...ความลับก็จะไม่เป็นความลับอีกต่อไป...**
 
 Reference: 
 * [https://wolfssl.github.io/wolfcrypt-py/symmetric.html](https://wolfssl.github.io/wolfcrypt-py/symmetric.html)
