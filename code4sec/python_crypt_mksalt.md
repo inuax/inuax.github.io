@@ -1,4 +1,4 @@
-#  Adding Salt to Hashing with crypt
+#  Adding salt to hashing with crypt module
 
 #Code4Sec Week #Day3 #NEIS0736 #NECS0736
 
