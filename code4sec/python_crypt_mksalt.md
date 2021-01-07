@@ -78,7 +78,7 @@ print('Generate password completed')
 
 เมื่อเราลอง import crypt เข้ามาในโปรแกรม เพื่อทำการ generate ค่า salt แบบ random ด้วยคำสั่ง "crypt.mksalt(crypt.METHOD_SHA256)" โปรแกรมจะนำค่า Salt และค่า Hash ของ password มาต่อกัน ซึ่งต้องใช้เวลาในการถอดรหัสนานกว่า Hash ของรหัสผ่านเดิมมากขึ้นอย่างมหาศาลเลยทีเดียว
 
-![](img/salt_3.png)
+![](img/salt_5.png)
 
 **Conclusion**
 * การเก็บข้อมูลที่สำคัญ เช่น รหัสผ่าน, เลขประจำตัวประชาชน ในฐานข้อมูล ควรเก็บในรูปแบบ Hash
