@@ -6,7 +6,7 @@
 
 ![](img/configget_1.png)
 
-**Sensitive Code Example**
+**ตัวอย่างการ hardcoding**
 ``` python
 import socket
 
@@ -17,11 +17,11 @@ sock.bind((ip, 9090))
 ```
 จากตัวอย่างมีการ hardcoding ค่า IP Address ไว้ใน code ของโปรแกรม หากผู้ไม่หวังดีสามารถเข้าถึง code ได้ เราจะมีความเสี่ยงด้านความมั่นคงปลอดภัยทันที
 
-**Compliant Solution**
-
-![](img/configget_2.png)
+**ตัวอย่างการใช้งาน ConfigParser**
 
 สำหรับ ConfigParser class มีพื้นฐานคล้ายกับการทำ configuration file ที่ใช้กันใน Microsoft Windows แบบไฟล์ INI ในภาษา Python เราก็พัฒนาโปรแกรมโดยใช้ configuration file แบบง่ายได้ด้วย module นี้ 
+
+![](img/configget_2.png)
 
 ``` python
 from configparser import ConfigParser
