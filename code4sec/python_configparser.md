@@ -1,5 +1,5 @@
 # เริ่มใช้งาน Configuration File ในภาษา Python ด้วย Configparser
-## Hard-coded credentials are security-sensitive
+## Mitigation of hard-coded credentials
 
 #Code4Sec Week #Day4 #NEIS0736 #NECS0736
 
