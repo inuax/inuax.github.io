@@ -20,7 +20,7 @@ sock.bind((ip, 9090))
 
 **ตัวอย่างการใช้งาน ConfigParser**
 
-สำหรับ ConfigParser Module มีพื้นฐานคล้ายกับการทำ configuration file ที่ใช้กันใน Microsoft Windows แบบไฟล์ INI ซึ่งในภาษา Python เราก็พัฒนาโปรแกรมโดยใช้ configuration file แบบง่ายได้ด้วย module นี้ 
+สำหรับ ConfigParser Module มีพื้นฐานคล้ายกับการทำ configuration file ที่ใช้กันใน Microsoft Windows แบบไฟล์ INI ซึ่งในภาษา Python เราก็พัฒนาโปรแกรมโดยใช้ configuration file แบบง่ายๆ ได้ด้วย module นี้ 
 
 ![](img/configget_2.png)
 
@@ -42,7 +42,10 @@ print("IP Address is", ipaddress)
 ``` ini
 # config.ini
 
+# section
 [CODE4SEC]
+
+# key = value or key : value
 hostname = test.com
 port = 8080
 ipaddr = 192.168.1.1
