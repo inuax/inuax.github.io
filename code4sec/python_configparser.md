@@ -4,9 +4,6 @@
 
 พูดถึงการให้บริการด้าน IT หากมีการพัฒนาโปรแกรมโดยมีการ hardcoding ข้อมูล security-sensitive เช่น username, password, IP address จะส่งผลต่อความปลอดภัยของ application ผู้ไม่หวังดีอาจ decompile code ได้ และด้วยเหตุนี้อาจทำให้ผู้ไม่หวังดีค้นพบข้อมูล sensitive ภายใน code ของเราได้ หลังจากนั้นผู้ไม่หวังดีสามารถโจมตีแบบ Denial of Service ไปยัง IP Address หรือทำการโจมตีด้วย IP address spoofing จาก IP Address ที่พบใน code ได้ อีกทั้งในปัจจุบันมีสถาปัตยกรรมที่เปลี่ยนแปลงตลอดอยู่เวลาเนื่องจากความต้องการด้าน scaling และ redundancy อาจทำให้เกิดความผิดพลาด เมื่อมีการเปลี่ยนแปลง IP Address และ การทำ hardcoding จะต้องแก้ไขด้วยซึ่งจะมีผลกระทบต่อการพัฒนาโปรแกรม การจัดส่ง และการปรับใช้งานอีกด้วย
 
-* นักพัฒนาจะต้องทำการแก้ไขทุกครั้งที่เกิดเหตุการณ์นี้แทนที่จะให้ทีมปฏิบัติการเปลี่ยน config file
-* สามารถบังคับให้ใช้ค่า configuration เดียวกันในทุก environment ได้ (dev, sys, qa, prod)
-
 ![](img/configget_1.png)
 
 **Sensitive Code Example**
@@ -53,6 +50,10 @@ ipaddr = 192.168.1.1
 จากตัวอย่างเราจะทำการสร้าง configuration file ชื่อว่า config.ini ไว้ใน directory เดียวกันกับตัวโปรแกรม โดยใน file จะมีข้อมูล จะมี Section ชื่อว่า CODE4SEC ประกอบด้วย Key และ Value ของค่า host, IP address และ port อยู่ และใช้คำสั่ง config_object.read("config.ini") เพื่อทำการอ่านข้อมูล และใช้คำสั่ง serverinfo = config_object["CODE4SEC"] เพื่อเรียก section ชื่อ CODE4SEC และ ipaddress = serverinfo["ipaddr"] เพื่อนำ Key และ Value ของ ipaddr มาใช้งานได้เลย
 
 ![](img/configget_3.png){:height="75%" width="75%"}
+
+ข้อดีของการใช้งาน 
+* นักพัฒนาจะต้องทำการแก้ไขทุกครั้งที่เกิดเหตุการณ์นี้แทนที่จะให้ทีมปฏิบัติการเปลี่ยน config file
+* สามารถบังคับให้ใช้ค่า configuration เดียวกันในทุก environment ได้ (dev, sys, qa, prod)
 
 **Reference:**
 * [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
