@@ -90,5 +90,3 @@ print('Generate password completed')
 * [https://www.thaicert.or.th/papers/technical/2012/pa2012te013.html](https://www.thaicert.or.th/papers/technical/2012/pa2012te013.html)
 
 **Author:** Ekawut Chairat
-
-### Code4Sec

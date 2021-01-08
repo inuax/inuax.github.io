@@ -52,7 +52,7 @@ ipaddr = 192.168.1.1
 
 จากตัวอย่างเราจะทำการสร้าง configuration file ชื่อว่า config.ini ไว้ใน directory เดียวกันกับตัวโปรแกรม โดยใน file จะมีข้อมูล จะมี Section ชื่อว่า CODE4SEC ประกอบด้วย Key และ Value ของค่า host, IP address และ port อยู่ และใช้คำสั่ง config_object.read("config.ini") เพื่อทำการอ่านข้อมูล และใช้คำสั่ง serverinfo = config_object["CODE4SEC"] เพื่อเรียก section ชื่อ CODE4SEC และ ipaddress = serverinfo["ipaddr"] เพื่อนำ Key และ Value ของ ipaddr มาใช้งานได้เลย
 
-![](img/configget_3.png)
+![](img/configget_3.png){:height="75%" width="75%"}
 
 **Reference:**
 * [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
