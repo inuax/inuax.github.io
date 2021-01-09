@@ -1,8 +1,10 @@
 # Python Secrets Module to Generate secure random data
 
+## #Code4Sec Week #Day4 #NEIS0736 #NECS0736
+
 ตั้งแต่ Python เวอร์ชั่น 3.6 ได้มีการเปิดตัว secrets module สำหรับสร้างตัวเลขสุ่มที่มีความแข็งแรงและปลอดภัย เราจะมาเรียนรู้วิธีใช้  secret.SystemRandom() และ Secrets module เพื่อทำการสร้าง secure random data ที่มีความมั่งคงปลอดภัย โดยก่อนหน้า Python 3.6 เรามีการใช้งาน os.urandom() class และ random.SystemRandom class เพื่อเข้ารหัสตัวสร้างแบบสุ่มที่ปลอดภัย
 
-![](img/secrand_1.png)
+![](img/secrand_1.png){:height="50%" width="50%"}
 
 Secrets module ทำงานแบบ Cryptographically Secure Pseudorandom Number Generator (CSPRNG) เป็นการสร้างตัวเลข Pseudo-Random ที่มีการเข้ารหัสที่แข็งแรงใช้เพื่อสร้างข้อมูลสุ่มซึ่งปลอดภัยและมีประโยชน์ในแอปพลิเคชันที่ต้องการความปลอดภัย โดยอ้างอิงจาก PEP - 0506 ที่ออกแบบมาเพื่อเพิ่ม secrets module เป็น library มาตรฐานใน Python และมีการสร้างข้อมูลแบบสุ่มโดยใช้ synchronization methods เพื่อให้แน่ใจว่าไม่มี process ใดที่สามารถรับข้อมูลเดียวกันในเวลาเดียวกันได้
 
