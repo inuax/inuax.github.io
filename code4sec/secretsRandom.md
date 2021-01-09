@@ -70,7 +70,6 @@ Return ค่า random byte รูปแบบ string ที่มีข้อ�
 ``` python
 import secrets
 
-#Code4Sec
 token = secrets.token_bytes(32)
 print(token)
 ```
