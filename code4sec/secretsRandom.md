@@ -2,7 +2,7 @@
 
 ## #Code4Sec Week #Day5 #NEIS0736 #NECS0736
 
-ตั้งแต่ Python เวอร์ชั่น 3.6 ได้มีการเปิดตัว Secrets Module สำหรับสร้างข้อมูลแบบสุ่มที่มีความแข็งแรงและปลอดภัย เราจะมาเรียนรู้วิธีใช้  secret.SystemRandom() และ secrets.token() เพื่อทำการสร้าง secure random data ที่มีความมั่งคงปลอดภัย โดยก่อนหน้า Python 3.6 เรามีการใช้งาน os.urandom() และ random.SystemRandom() เพื่อสร้างข้อมูลแบบสุ่มที่มีความปลอดภัย
+ตั้งแต่ Python เวอร์ชั่น 3.6 ได้มีการเปิดตัว Secrets Module สำหรับสร้างข้อมูลแบบสุ่มที่มีความแข็งแรงและปลอดภัย เราจะมาเรียนรู้วิธีใช้  secret.SystemRandom() และ secrets.token() เพื่อทำการสร้าง secure random data ที่มีความมั่งคงปลอดภัย โดยก่อนหน้า Python เวอร์ชั่น 3.6 เรามีการใช้งาน os.urandom() และ random.SystemRandom() เพื่อสร้างข้อมูลแบบสุ่มที่มีความปลอดภัย
 
 ![](img/secrand_1.png){:height="75%" width="75%"}
 
@@ -24,13 +24,13 @@ Secrets module ทำงานอยู่บน os.urandom() และ random.S
 ## Random numbers
 
 ### Class secrets.SystemRandom
-เป็นคลาสสำหรับสร้างตัวเลขสุ่มโดยใช้ highest-quality sources ที่ระบบปฏิบัติการได้จัดเตรียมไว้ โดยเมื่อเมื่อใช้งาน secrets.SystemRandom class เราก็จะสามารถใช้งาน funtion ทั้งหมดของ random module ได้เลย
+เป็นคลาสสำหรับสร้างตัวเลขสุ่มโดยใช้ highest-quality sources ที่ระบบปฏิบัติการได้จัดเตรียมไว้ โดยเมื่อเรียกใช้งาน secrets.SystemRandom class เราก็จะสามารถใช้งานฟังก์ชั่นทั้งหมดของ random module ได้เลย
 
 **ตัวอย่าง class secrets.SystemRandom**
 
 ### **secrets.choice(sequence)**
 
-Return a randomly-chosen element from a non-empty sequence.
+Return ค่า randomly ที่ถูกเลือกจาก non-empty sequence
 
 ```python
 import secrets
