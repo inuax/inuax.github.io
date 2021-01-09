@@ -104,7 +104,7 @@ https://code4sec.com/reset=VgZIgKN97sDsfhSQ14M5mG84hkIyLGHcfy_cXFp_7WQ
 
 **Token ควรใช้ขนาดกี่ byte ?**
 
-เพื่อความปลอดภัยจากการโจมตีด้วย brute-force attacks ต้องมีขนาดการสุ่มอย่างเพียงพอเนื่องจากปัจจุบัน computer มีประสิทธิภาพมากขึ้น ตั้งแต่ปี ค.ศ.2015 เชื่อกันว่าการสุ่มขนาด 32 bytes (256 bits) นั้นเพียงพอสำหรับกรณีการใช้งานทั่วไปที่ถูกคาดการณ์ไว้สำหรับ secrets module
+เพื่อความปลอดภัยจากการโจมตีด้วย brute-force attacks ต้องมีขนาดการสุ่มอย่างเพียงพอเนื่องจากปัจจุบัน computer มีประสิทธิภาพในการเดาและถอดรหัสมากขึ้น ตั้งแต่ปี ค.ศ.2015 ยังเชื่อกันว่าการสุ่มขนาด 32 bytes (256 bits) นั้นเพียงพอสำหรับกรณีการใช้งานทั่วไปที่ถูกคาดการณ์ไว้สำหรับ secrets module
 
 **Reference:**
 * [https://docs.python.org/3/library/secrets.html#module-secrets](https://docs.python.org/3/library/secrets.html#module-secrets)
