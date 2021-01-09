@@ -24,7 +24,7 @@ Secrets module ทำงานอยู่บน os.urandom() และ random.S
 ## Random numbers
 
 ### Class secrets.SystemRandom
-เป็นคลาสสำหรับสร้างตัวเลขสุ่มโดยใช้ highest-quality sources ที่ระบบปฏิบัติการได้จัดเตรียมไว้ โดยเมื่อเรียกใช้งาน secrets.SystemRandom class เราก็จะสามารถใช้งานฟังก์ชั่นทั้งหมดของ random module ได้เลย
+เป็น class สำหรับสร้างตัวเลขสุ่มโดยใช้ highest-quality sources ที่ระบบปฏิบัติการได้จัดเตรียมไว้ โดยเมื่อเรียกใช้งาน secrets.SystemRandom class เราก็จะสามารถใช้งานฟังก์ชั่นทั้งหมดของ random module ได้เลย
 
 **ตัวอย่าง class secrets.SystemRandom**
 
