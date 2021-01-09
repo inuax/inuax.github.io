@@ -1,6 +1,6 @@
 # Python Secrets Module to Generate secure random data
 
-## #Code4Sec Week #Day4 #NEIS0736 #NECS0736
+## #Code4Sec Week #Day5 #NEIS0736 #NECS0736
 
 ตั้งแต่ Python เวอร์ชั่น 3.6 ได้มีการเปิดตัว Secrets Module สำหรับสร้างข้อมูลแบบสุ่มที่มีความแข็งแรงและปลอดภัย เราจะมาเรียนรู้วิธีใช้  secret.SystemRandom() และ Secrets module เพื่อทำการสร้าง secure random data ที่มีความมั่งคงปลอดภัย โดยก่อนหน้า Python 3.6 เรามีการใช้งาน os.urandom() และ random.SystemRandom() เพื่อสร้างข้อมูลแบบสุ่มที่มีความปลอดภัย
 
