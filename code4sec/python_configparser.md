@@ -60,6 +60,6 @@ ipaddr = 192.168.1.1
 **Reference:**
 * [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
-**Team Author:** 
+**Author:** 
 
 Ekawut Chairat
