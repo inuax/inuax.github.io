@@ -70,11 +70,6 @@ ROOT_URLCONF = 'code4sec.urls'
 
 * สำหรับทุก template ที่มีการใช้งาน POST form ให้ทำการเรียกใช้งาน csrf_token ภายใน form 
 
-```
-# template
-<form method="post">{% csrf_token %}
-```
-
 * ตรวจสอบว่ามีการเรียกใช้งาน RequestContext เพื่อ render ค่า response ให้กับ {% csrf_token%} ทำงานได้อย่างถูกต้อง หากคุณกำลังใช้ฟังก์ชัน render () มุมมองทั่วไปหรือแอปที่มีส่วนร่วมคุณจะได้รับความคุ้มครองอยู่แล้วเนื่องจากสิ่งเหล่านี้ใช้ RequestContext
 
 * และไม่ปิดใช้งานการป้องกัน CSRF ใน views.py 
