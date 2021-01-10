@@ -70,7 +70,7 @@ ROOT_URLCONF = 'code4sec.urls'
 
 * สำหรับทุก template ที่มีการใช้งาน POST form ให้ทำการเรียกใช้งาน csrf_token ภายใน form 
 
-``` html
+```
 # template
 <form method="post">{% csrf_token %}
 ```
