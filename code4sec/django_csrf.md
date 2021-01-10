@@ -39,7 +39,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'code4sec.urls'
 ```
 
-* CSRF protection ถูกปิดการใช้งานใน View (views.py)
+* CSRF protection ถูกปิดการใช้งานใน View (views.py) ด้วยคำสั่ง @csrf_exempt
 
 ``` python
 # view.py
@@ -50,9 +50,10 @@ class HomePageView(TemplateView):
 ```
 
 **How to use it**
+
 สำหรับ Django application
 
-* แนะนำให้ป้องกัน view ทั้งหมดด้วยคำสั่ง django.middleware.csrf.CsrfViewMiddleware ในไฟล์ setting.py หรือใช้ csrf_protect () กับเฉพาะ view ที่ต้องการได้แต่ไม่แนะนำให้ใช้งานวิธีนี้
+* แนะนำให้ป้องกัน View ทั้งหมดด้วยคำสั่ง django.middleware.csrf.CsrfViewMiddleware ในไฟล์ setting.py หรือใช้ csrf_protect () กับเฉพาะ view ที่ต้องการได้แต่ไม่แนะนำให้ใช้งานวิธีนี้
 
 ``` python
 # setting.py
@@ -70,9 +71,20 @@ ROOT_URLCONF = 'code4sec.urls'
 
 * สำหรับทุก template ที่มีการใช้งาน POST form ให้ทำการเรียกใช้งาน csrf_token ภายใน form 
 
-* ตรวจสอบว่ามีการเรียกใช้งาน RequestContext เพื่อ render ค่า response ให้กับ csrf_token ทำงานได้อย่างถูกต้อง หากคุณกำลังใช้ฟังก์ชัน render () มุมมองทั่วไปหรือแอปที่มีส่วนร่วมคุณจะได้รับความคุ้มครองอยู่แล้วเนื่องจากสิ่งเหล่านี้ใช้ RequestContext
+``` html
+<form method="post">{%csrf_token%}
+```
 
-* และไม่ปิดใช้งานการป้องกัน CSRF ใน views.py 
+* ตรวจสอบว่ามีการเรียกใช้งาน RequestContext เพื่อ render ค่า response ให้กับ csrf_token ทำงานได้อย่างถูกต้อง หากเรามีการใช้ฟังก์ชัน render() ใน View เราจะได้รับการป้องกัน เนื่องจากในฟังก์ชั่น render() มีการใช้ RequestContext อยู่แล้ว
+
+``` python
+# view.py
+class HomePageView(TemplateView):
+    def get(self, request, **kwargs):
+        return render(request, 'index.html', context=None)
+```
+
+* ไม่ปิดใช้งานการป้องกัน CSRF ใน views.py 
 
 ``` python
 # view.py
