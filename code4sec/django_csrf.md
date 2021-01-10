@@ -1,4 +1,4 @@
-# Cross Site Request Forgery protection in Django
+# Cross Site Request Forgery Protection in Django
 
 ## Django Web Framework
 
