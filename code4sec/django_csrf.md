@@ -71,9 +71,7 @@ ROOT_URLCONF = 'code4sec.urls'
 
 * สำหรับทุก template ที่มีการใช้งาน POST form ให้ทำการเรียกใช้งาน csrf_token ภายใน form 
 
-``` html
-<form method="post">{%csrf_token%}
-```
+![](img/csrf_8.png){:height="75%" width="75%"}
 
 * ตรวจสอบว่ามีการเรียกใช้งาน RequestContext เพื่อ render ค่า response ให้กับ csrf_token ทำงานได้อย่างถูกต้อง หากเรามีการใช้ฟังก์ชัน render() ใน View เราจะได้รับการป้องกัน เนื่องจากในฟังก์ชั่น render() มีการใช้ RequestContext อยู่แล้ว
 
