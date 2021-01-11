@@ -25,6 +25,8 @@
 
 FTP Module กำหนด FTP Class และรายละเอียดที่เกี่ยวข้อง เราสามารถใช้งาน module นี้เพื่อเขียนโปรแกรม Python ที่ทำงาน FTP แบบอัตโนมัติต่างๆ เช่น การทำ FTP mirroring นอกจากนี้ยังใช้งานร่วมกับ urllib.request เพื่อจัดการ URL ที่ใช้ FTP ได้อีกด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ FTP (File Transfer Protocol) ดูข้อมูลได้ที่ [RFC 959](https://tools.ietf.org/html/rfc959.html)
 
+## FTP Class
+
 class ftplib.FTP(host='', user='', passwd='', acct='', timeout=None, source_address=None, *, encoding='utf-8')
 
 ตัวอย่าง FTP Objects
