@@ -83,7 +83,7 @@ from ftplib import FTP_TLS
 
 ftps = FTP_TLS(host='ftp.pureftpd.org')
 print(ftps.login())
-ftps.prot_p()
+ftps.prot_p()  # Set up secure data connection
 print(ftps.retrlines('LIST'))
 ```
 
