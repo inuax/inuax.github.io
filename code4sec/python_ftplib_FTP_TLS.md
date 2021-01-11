@@ -1,5 +1,7 @@
 # FTP_TLS adding TLS support to FTP
 
+#Code4Sec Week #Day7 #NEIS0736 #NECS0736
+
 ## FTP - Clear-text protocols
 
 **FTP (File Transfer Protocol)** คือ Protocol ที่ออกแบบมาเพื่อใช้ในการรับส่งไฟล์ระหว่าง Client และ Server โดยจะมี port ที่ใช้งานอยู่ 2 port คือ port 20 ใช้ในการรับ-ส่งข้อมูล (data channel) ส่วนอีก port คือ port 21 ใช้ในการควบคุมหรือส่งคำสั่ง FTP (control channel) เช่น ตรวจสอบการเข้าถึงโปรแกรมจากผู้ใช้งาน เป็นต้น และในปัจจุบัน ผู้ให้บริการ service ต่างๆ โดยส่วนใหญ่มักจะให้บริการแลกเปลี่ยนไฟล์ผ่าน FTP Server เพราะการติดตั้งระบบและการบริหารจัดการไฟล์ทำได้ง่าย
