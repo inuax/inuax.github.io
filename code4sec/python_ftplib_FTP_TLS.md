@@ -35,24 +35,23 @@ method
 
 ```FTP_TLS class``` เป็นการ inherits มาจาก FTP โดยมีการเพิ่ม object ไว้ดังนี้:
 
-```FTP_TLS.ssl_version```
-
+**FTP_TLS.ssl_version**
 
 SSL version ที่ต้องการใช้งาน (defaults to ssl.PROTOCOL_SSLv23).
 
-```FTP_TLS.auth()```
+**FTP_TLS.auth()**
 
 ตั้งค่า secure control connection โดยสามารถใช้งาน TLS หรือ SSL ขึ้นอยู่กับการระบุในแอตทริบิวต์ ssl_version
 
-```FTP_TLS.ccc()```
+**FTP_TLS.ccc()**
 
 เปลี่ยนค่า control channel ให้กลับเป็นแบบ plaintext ใช้ประโยชน์จากไฟร์วอลล์ที่รู้วิธีจัดการ NAT ด้วย non-secure FTP โดยไม่ต้องเปิดพอร์ตถาวร
 
-```FTP_TLS.prot_p()```
+**FTP_TLS.prot_p()**
 
 ตั้งค่า secure data connection.
 
-```FTP_TLS.prot_c()```
+**FTP_TLS.prot_c()**
 
 ตั้งค่า data connection แบบ clear text
 
