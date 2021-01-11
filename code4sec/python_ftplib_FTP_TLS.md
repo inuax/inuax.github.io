@@ -23,6 +23,8 @@
 
 ## ftplib — FTP protocol client
 
+**Add TLS support to FTP**
+
 **class ftplib.FTP_TLS**(host='', user='', passwd='', acct='', keyfile=None, certfile=None, context=None, timeout=None, source_address=None, *, encoding='utf-8')
 
 FTP subclass เป็นการเพิ่มการสนับสนุน TLS ให้กับ FTP ตามที่อธิบายไว้ใน [RFC 4217](https://tools.ietf.org/html/rfc4217.html) เชื่อมต่อกับ port 21 เพื่อรักษาความปลอดภัย FTP control connection ก่อนที่จะทำการพิสูจน์ตัวตน สำหรับการรักษาความปลอดภัยของ data connection ต้องถูกระบุเรียกใช้ ``` prot_p () ``` 
