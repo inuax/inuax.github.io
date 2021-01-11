@@ -19,9 +19,6 @@
 
 วิธีการแก้ไขนั้นควรเปลี่ยนมาใช้ Protocol สำหรับแลกเปลี่ยนข้อมูลที่มีการเข้ารหัสลับข้อมูลที่รับส่งเสมอ ซึ่งมีโพรโทคอลที่ถูกออกแบบมาเพื่อแก้ปัญหาดังกล่าว คือ FTPS
 
-**FTPS**
-FTPS คือ FTP พร้อม SSL เพื่อความปลอดภัย มันใช้ช่องทางควบคุมและเปิดการเชื่อมต่อใหม่สำหรับการถ่ายโอนข้อมูล
-
 ## ftplib — FTP protocol client
 
 ```class ftplib.FTP_TLS``` (host='', user='', passwd='', acct='', keyfile=None, certfile=None, context=None, timeout=None, source_address=None, *, encoding='utf-8')
