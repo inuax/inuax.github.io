@@ -23,7 +23,25 @@
 
 ## ftplib — FTP protocol client
 
-**Add TLS support to FTP**
+FTP Module กำหนด FTP Class และรายละเอียดที่เกี่ยวข้อง เราสามารถใช้งาน module นี้เพื่อเขียนโปรแกรม Python ที่ทำงาน FTP แบบอัตโนมัติต่างๆ เช่น การทำ FTP mirroring นอกจากนี้ยังใช้โดยโมดูล urllib.request เพื่อจัดการ URL ที่ใช้ FTP ร่วมกันได้อีกด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ FTP (File Transfer Protocol) ดูข้อมูลได้ที่ [RFC 959](https://tools.ietf.org/html/rfc959.html)
+
+class ftplib.FTP(host='', user='', passwd='', acct='', timeout=None, source_address=None, *, encoding='utf-8')
+
+ตัวอย่าง FTP Objects
+
+**FTP.login(user='anonymous', passwd='', acct='')**
+
+Log in ด้วย username และ password ที่ระยุ
+
+**FTP.sendcmd(cmd)**
+
+ส่งคำสั่งไปยัง FTP Server และตอบกลับ response รูปแบบ string
+
+**FTP.transfercmd(cmd, rest=None)**
+
+ทำการ transfer ข้อมูลผ่่าน data connection
+
+## Add TLS support to FTP
 
 class ftplib.FTP_TLS(host='', user='', passwd='', acct='', keyfile=None, certfile=None, context=None, timeout=None, source_address=None, *, encoding='utf-8')
 
