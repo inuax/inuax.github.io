@@ -47,7 +47,7 @@ import os
 from hashlib import pbkdf2_hmac
 
 # example password
-password = 'Code4SecWeek'
+password = b'Code4SecWeek'
 
 salt = os.urandom(32)
 print('Salt -> ', salt)
