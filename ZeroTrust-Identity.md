@@ -46,10 +46,6 @@ Zero Trust เชื่อว่ามีผู้โจมตีทั้งภ
 
 ![](img/bio.png){:height="40%" width="40%"}
 
-## เริ่มต้นโมเดล Zero Trust ด้วย 5 ขั้นตอน
-
-
-
 **Reference:**
 * [https://www.cloudflare.com/en-ca/learning/security/glossary/what-is-zero-trust](https://www.cloudflare.com/en-ca/learning/security/glossary/what-is-zero-trust)
 * [https://www.cloudflare.com/en-ca/learning/access-management/what-is-identity-and-access-management/](https://www.cloudflare.com/en-ca/learning/access-management/what-is-identity-and-access-management/)
