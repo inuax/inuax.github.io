@@ -13,7 +13,7 @@ His interests include computer and network security, information security and co
 
 His hobbies include Photography, Traveling.
 
-## Education
+### Education
 
 **2019 - Present**
 
