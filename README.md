@@ -3,7 +3,7 @@
 
 ![](img/Ekawut_image.jpg){:height="50%" width="25%" style="float: right"}
 
-### AKA "หัวลากกก"
+### AKA "หัวลาก"
 
 Ekawut Chairat received his B.Eng. degrees in Computer Engineering from Kasetsart University Kamphaeng Saen Campus in 2012, respectively. He also studies in Master of Science in Network Engineering and Information Security at Mahanakorn University of Technology.
 
